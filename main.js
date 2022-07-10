@@ -27,4 +27,6 @@ console.log('endsWith', 'qwe123'.endsWith('123'))
 
 // endregion
 
-document.querySelector('#app').innerHTML = '<h1>Hello Vite!</h1>'
+const html = '<h1>Hello Vite!</h1>'
+
+document.querySelector('#app').innerHTML = html

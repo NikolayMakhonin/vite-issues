@@ -21,6 +21,7 @@ const config = {
 		},
 	},
 	plugins: [
+		// legacy(),
 		{
 			name: 'vite-plugin-babel',
 			config(config, config_env) {
