@@ -2,6 +2,8 @@
 
 ```sh
 npm create vite@latest
+√ Select a framework: » vanilla
+√ Select a variant: » vanilla
 cd <vite project>
 pnpm install
 ```
