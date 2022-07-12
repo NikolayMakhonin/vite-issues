@@ -8,7 +8,8 @@ const config = {
     maxThreads: 1,
     globals: true,
     include: [
-      'src/test.js',
+      // 'src/test.js',
+      'src/**/*.test.js',
     ],
     watch: true,
   },
