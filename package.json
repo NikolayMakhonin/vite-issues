@@ -8,6 +8,6 @@
   "devDependencies": {
     "globby": "^13.1.2",
     "vite": "^2.9.9",
-    "vitest": "^0.18.0"
+    "vitest": "link:D:/projects/my/node/community/vitest-simple/packages/vitest/"
   }
 }
