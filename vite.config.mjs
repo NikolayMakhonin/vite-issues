@@ -2,8 +2,9 @@
 const config = {
   test: {
     threads: false,
-    isolate: false,
+    isolate: true,
     maxConcurrency: 10,
+
     include: [
       'src/**/*.test.js',
     ],
