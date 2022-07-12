@@ -2,12 +2,15 @@
 const config = {
   test: {
     threads: false,
-    isolate: true,
+    isolate: false,
     maxConcurrency: 10,
-
+    minThreads: 1,
+    maxThreads: 1,
+    globals: true,
     include: [
-      'src/**/*.test.js',
+      'src/test.js',
     ],
+    watch: true,
   },
 };
 
