@@ -1,8 +1,7 @@
-import {globby} from 'globby'
+const testFiles = import.meta.glob('__TESTS_FILES__')
 
 describe.concurrent('all', async function () {
-  const testFiles = await globby('src/**/*.test*')
-  await Promise.all(testFiles.map(async testFile => {
-    await import(testFile)
+  await Promise.all(Object.keys(testFiles).map(async testFile => {
+    await testFiles[testFile]()
   }))
 })

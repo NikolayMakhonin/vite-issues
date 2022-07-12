@@ -3,11 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   globby: ^13.1.2
   vite: ^2.9.9
+  vite-plugin-replace: ^0.1.1
   vitest: ^0.18.0
 
 devDependencies:
   globby: 13.1.2
   vite: 2.9.14
+  vite-plugin-replace: 0.1.1_vite@2.9.14
   vitest: 0.18.0
 
 packages:
@@ -534,6 +536,14 @@ packages:
   /type-detect/4.0.8:
     resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
     engines: {node: '>=4'}
+    dev: true
+
+  /vite-plugin-replace/0.1.1_vite@2.9.14:
+    resolution: {integrity: sha512-v+okl3JNt2pf1jDYijw+WPVt6h9FWa/atTi+qnSFBqmKThLTDhlesx0r3bh+oFPmxRJmis5tNx9HtN6lGFoqWg==}
+    peerDependencies:
+      vite: ^2
+    dependencies:
+      vite: 2.9.14
     dev: true
 
   /vite/2.9.14:
