@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "webstorm-integration": "vitest --watch --reporter=dot --reporter=json --outputFile=.vitest-result.json"
   },
   "devDependencies": {
+    "@vitest/ui": "^0.18.0",
     "globby": "^13.1.2",
     "vite": "^2.9.9",
     "vite-plugin-replace": "^0.1.1",
