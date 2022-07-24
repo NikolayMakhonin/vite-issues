@@ -1,6 +1,3 @@
-import './style.css'
+import _asyncToGenerator from "@babel/runtime-corejs3/helpers/esm/asyncToGenerator";
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+console.log("qwe".endsWith("e") + _asyncToGenerator);

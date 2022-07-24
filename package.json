@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@babel/runtime-corejs3": "^7.18.9",
     "vite": "3.0.2"
   }
 }

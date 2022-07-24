@@ -1,12 +1,27 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@babel/runtime-corejs3': ^7.18.9
   vite: 3.0.2
 
 devDependencies:
+  '@babel/runtime-corejs3': 7.18.9
   vite: 3.0.2
 
 packages:
+
+  /@babel/runtime-corejs3/7.18.9:
+    resolution: {integrity: sha512-qZEWeccZCrHA2Au4/X05QW5CMdm4VjUDCrGq5gf1ZDcM4hRqreKrtwAn7yci9zfgAS9apvnsFXiGBHBAxZdK9A==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      core-js-pure: 3.23.5
+      regenerator-runtime: 0.13.9
+    dev: true
+
+  /core-js-pure/3.23.5:
+    resolution: {integrity: sha512-8t78LdpKSuCq4pJYCYk8hl7XEkAX+BP16yRIwL3AanTksxuEf7CM83vRyctmiEL8NDZ3jpUcv56fk9/zG3aIuw==}
+    requiresBuild: true
+    dev: true
 
   /esbuild-android-64/0.14.48:
     resolution: {integrity: sha512-3aMjboap/kqwCUpGWIjsk20TtxVoKck8/4Tu19rubh7t5Ra0Yrpg30Mt1QXXlipOazrEceGeWurXKeFJgkPOUg==}
@@ -262,6 +277,10 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /regenerator-runtime/0.13.9:
+    resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
     dev: true
 
   /resolve/1.22.1:
