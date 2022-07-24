@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35534bea-6e21-40e8-a66e-0caf6c1a6355" name="Changes" comment="init project">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/preview.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +27,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="14624" />
+    <option name="totalTimeSeconds" value="15123" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
@@ -48,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/projects/my/node/community/vite-issues/src/node_modules",
+    "last_opened_file_path": "D:/projects/my/node/community/vite-issues",
     "nodejs_package_manager_path": "pnpm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "E:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
@@ -57,9 +64,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\my\node\community\vite-issues" />
       <recent name="D:\projects\my\node\community\vite-issues\src\node_modules" />
       <recent name="D:\projects\-temp\vite\vite-issues\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.preview">
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.preview" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.debug" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +94,7 @@
       <workItem from="1657755396425" duration="338000" />
       <workItem from="1658557697032" duration="2436000" />
       <workItem from="1658634413520" duration="65000" />
-      <workItem from="1658634790437" duration="709000" />
+      <workItem from="1658634790437" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="vitest issues">
       <created>1657592779897</created>
@@ -157,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658635265067</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="init project">
+      <created>1658635511477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658635511477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
